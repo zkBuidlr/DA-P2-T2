@@ -5,7 +5,7 @@ export default class AddNewPost extends Component {
     const postAddHandle = this.props.postAddHandle;
     return (
       <div>
-        <h1 className="font-bold text-2xl m-2">ADD POSTS</h1>
+        <h1 className="font-bold text-2xl m-2">ADD POSTS.</h1>
         <form onSubmit={postAddHandle} className="w-2/5">
           <input
             className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"
