@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import AddNewPost from "../components/Posts3/AddNewPost";
-import DisplayPosts from "../components/Posts3/DisplayPosts";
+import AddNewPost from "../../components/Posts2/AddNewPost";
+import DisplayPosts from "../../components/Posts2/DisplayPosts";
 
 export default function POSTS() {
   const [data, setData] = useState(null);

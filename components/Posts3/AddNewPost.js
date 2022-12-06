@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 export default class AddNewPost extends Component {
+  static props = {};
+
   render() {
     const postAddHandle = this.props.postAddHandle;
     return (
